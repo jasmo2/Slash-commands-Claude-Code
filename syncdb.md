@@ -18,4 +18,4 @@ Pull db from QA and then follow the steps, using the aws-cli, docker-cli
 - docker exec -i $POSTGRES_CONTAINER_ID psql -U postgres < ~/Desktop/output.sql
 - docker exec -i $POSTGRES_CONTAINER_ID psql -U postgres -c "ALTER DATABASE qa RENAME TO counterpart"
 - python manage.py shell_plus
-- user = User.objects.create_user(email='admin1@yourcounterpart.com' password='123456', is_staff=True, is_superuser=True, is_active=True);
+- user = User.objects.create_user(email='admin1@yourcounterpart.com' password='123456', is_staff=True,is_superuser=True, is_active=True);
