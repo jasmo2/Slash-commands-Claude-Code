@@ -19,7 +19,7 @@ For Sentry, use the Sentry MCP server.
 - Work on the fix. Consider how we can test this. Manual QA is OK, but unit tests are
 preferred. Make sure to call out at the end the steps to manually QA if unit tests are
 not possible
-- Review the changes using zen. Automatically fix any critical issues
+- Review the changes using pal. Automatically fix any critical issues
 - Run linters and formatters
 - Execute any relevant tests - do not execute the whole suite unless absolutely necessary
 - Create a commit using conventional commit format
